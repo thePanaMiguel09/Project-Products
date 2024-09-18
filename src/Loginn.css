@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right top, #d16ba5, #c777b9, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff);
+    background: linear-gradient(to right,  #434343,#000000);
     animation: gradientAnimation 15s infinite;
     background-size: 200% 200%;
 }
@@ -17,9 +17,7 @@ body {
 }
 
 .containerColor {
-    background: linear-gradient( #009dd4, #00bdc2);
-    animation: gradientAnimation 15s infinite;
-    background-size: 200% 200%;
+    background: #000000;
 }
 
 .containerBorder {
@@ -41,7 +39,7 @@ body {
 }
 
 .buttonColor {
-    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    background: linear-gradient(#434343,#000000);
     animation: gradientAnimation 15s infinite;
     background-size: 200% 200%;
 }
@@ -76,6 +74,10 @@ body {
 
 .inputSize {
     width: 50%;
+}
+
+.inputColor {
+    background-color: transparent;
 }
 
 .containerFlex {
@@ -116,12 +118,7 @@ body {
 }
 
 .textColorAnimation {
-    background: linear-gradient(109.6deg, #d16ba5, #c777b9, #8aa7ec, #79b3f4, #69bff8);
-    background-size: 200% 200%; 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientAnimation 5s ease infinite;
+    color: whitesmoke;
 }
 
 .LoginContainer {
@@ -144,6 +141,10 @@ body {
 .showPassword {
     display: flex;
     justify-content: flex-end;
+}
+
+.textLabelAlign {
+    text-align: start;
 }
 
 
