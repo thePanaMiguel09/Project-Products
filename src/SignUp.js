@@ -1,17 +1,16 @@
-import "./App.css"
-import "./SignUp.css"
+import "./App.css";
+import "./SignUp.css";
 
 function SignUp() {
-    return (
-
-        <div className="App">
-            <div className="contaierSignUp">
-                
-            </div>
+  return (
+    <div className="App">
+      <div >
+        <div className="ContainerSignUp">
+            hola
         </div>
-
-
-    );
+      </div>
+    </div>
+  );
 }
 
-export default SignUp
+export default SignUp;

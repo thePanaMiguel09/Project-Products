@@ -1,15 +1,17 @@
 import Form from "react-bootstrap/Form";
-
 import { Button } from "react-bootstrap";
+import { useNavigate  } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import "./App.css";
 import "./Loginn.css";
-import { useNavigate  } from "react-router-dom";
+
 
 function Login() {
   const navigate = useNavigate();
   const toHome = () => {
-    navigate("/signup");
+    navigate("/home");
   };
+
   return (
     <div className="App">
       <div className="LoginContainer">
@@ -23,7 +25,7 @@ function Login() {
                   controlId="exampleForm.ControlInput1"
                 >
                   <div className="textLabelAlign textColor ">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>Email</Form.Label>
                   </div>
                   <Form.Control
                     type="email"
@@ -45,10 +47,13 @@ function Login() {
                 />
               </Form.Group>
             </div>
-            <Button variant="dark" onClick={toHome}>
+            <Button variant="outline-light" onClick={toHome}>
               Login
             </Button>{" "}
-            <div className="signUpStyle"></div>
+            <div className="signUpStyle">
+              Have not already an account?
+            <Link to="/SignUp" className="textColor">SignUp</Link>
+            </div>
           </div>
         </div>
       </div>
