@@ -2,8 +2,8 @@ import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 import { useNavigate  } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import "./App.css";
-import "./Loginn.css";
+import "../../App.css";
+import "../Styles/Loginn.css";
 
 
 function Login() {
@@ -43,7 +43,7 @@ function Login() {
                 <Form.Control
                   type="password"
                   placeholder="Password"
-                  className="inputColor"
+                  
                 />
               </Form.Group>
             </div>

@@ -2,18 +2,6 @@ body {
     background: #F0F8FF !important;
 }
 
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .containerColor {
     background: #00BFFF;
 }
@@ -36,27 +24,6 @@ body {
     color: #F0F8FF;
 }
 
-.buttonColor {
-   
-}
-
-.navVar {
-    margin-top: 10px;
-}
-
-.signUpBottonStyle {
-    margin-top: 20px;
-}
-
-.signUpContainer {
-    width: 50%;
-    height: 100%;
-}
-
-.displaySignUpContainer {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .contentForm {
     width: 100%;
@@ -93,26 +60,6 @@ body {
     align-items: center;
 }
 
-.aboutMeContainer {
-    width: 70vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.containerInfo {
-    height: 100%;
-}
-
-.containerImage {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-left: 100px;
-}
-
 .textColorAnimation {
     color: whitesmoke;
 }
@@ -134,10 +81,7 @@ display: flex;
     align-items: center;
 }
 
-.showPassword {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 .textLabelAlign {
     text-align: start;

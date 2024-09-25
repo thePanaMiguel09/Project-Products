@@ -1,0 +1,12 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    
+    border: solid black !important;
+}
+
+
+
+body {
+    border: solid red;
+}

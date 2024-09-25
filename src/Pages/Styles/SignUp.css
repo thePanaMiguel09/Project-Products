@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F8FF !important;
+
+}
+
+.ContainerSignUp {
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+    
+}
+
+.headerPadding {
+    padding-top: 15px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.containerColor {
+    background-color: #00BFFF;
+}
+
+.inputSize {
+    width: 50% !important; 
+}
+
