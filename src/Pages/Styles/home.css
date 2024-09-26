@@ -1,12 +1,10 @@
-.navContainer {
+
+.containerPrincipal {
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
-    
-    border: solid black !important;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
-
-body {
-    border: solid red;
-}

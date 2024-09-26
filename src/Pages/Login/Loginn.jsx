@@ -13,7 +13,7 @@ function Login() {
   };
 
   return (
-    <div className="App">
+    <div className="App ">
       <div className="LoginContainer">
         <div className="resizeContainer containerColor  containerBorder">
           <div className="InputContainer">

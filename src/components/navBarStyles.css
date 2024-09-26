@@ -1,0 +1,17 @@
+.navBarContainer {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navColor {
+    background: #00BFFF;
+}
+
+.navText {
+    color: white !important;
+    font-weight: bold;
+}
