@@ -1,0 +1,57 @@
+.carouselSize {
+  background-color: #102547 !important;
+  height: 70vh;
+  width: 85vw;
+  border-radius: 30px;
+}
+
+.textColor {
+  color: white;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  width: 50%;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.contenedor {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.carouselSizeItem {
+  height: 400px;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.imagePosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  border: solid;
+}
+
+.itemsPosition {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

@@ -1,10 +1,40 @@
-
-.containerPrincipal {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
+.containerPrincipal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el NavBar esté arriba y el Footer abajo */
+  min-height: 100vh; /* Asegura que el contenedor ocupe la altura completa de la pantalla */
+  width: 100vw;
+  background: radial-gradient(
+    circle at 68.3% -18.3%,
+    #ff99ff 0,
+    #b779ff 25%,
+    #5353f2 50%,
+    #002ea7 75%,
+    #001067 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}

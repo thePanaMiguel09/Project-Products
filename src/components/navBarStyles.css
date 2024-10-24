@@ -1,17 +1,23 @@
 .navBarContainer {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navColor {
-    background: #00BFFF;
+  background: #102547;
 }
 
 .navText {
-    color: white !important;
-    font-weight: bold;
+  color: white !important;
+  font-weight: bold;
 }
+
+.navBarItemColor {
+  background: #102547 !important;
+}
+
+
+

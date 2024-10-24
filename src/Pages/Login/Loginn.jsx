@@ -1,10 +1,9 @@
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
-import { useNavigate  } from "react-router-dom";
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../App.css";
 import "../Styles/Loginn.css";
-
 
 function Login() {
   const navigate = useNavigate();
@@ -13,7 +12,7 @@ function Login() {
   };
 
   return (
-    <div className="App ">
+    <div className="body backColor">
       <div className="LoginContainer">
         <div className="resizeContainer containerColor  containerBorder">
           <div className="InputContainer">
@@ -40,11 +39,7 @@ function Login() {
                   <Form.Label>Password</Form.Label>
                 </div>
 
-                <Form.Control
-                  type="password"
-                  placeholder="Password"
-                  
-                />
+                <Form.Control type="password" placeholder="Password" />
               </Form.Group>
             </div>
             <Button variant="outline-light" onClick={toHome}>
@@ -52,7 +47,9 @@ function Login() {
             </Button>{" "}
             <div className="signUpStyle">
               Have not already an account?
-            <Link to="/SignUp" className="textColor">SignUp</Link>
+              <Link to="/SignUp" className="textColor">
+                SignUp
+              </Link>
             </div>
           </div>
         </div>
